@@ -32,10 +32,10 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
-.content strong, i {
+.interview {
     flex: 50%;
 }
-.content img {
+.kebab {
     flex: 50%;
 }
 strong {
