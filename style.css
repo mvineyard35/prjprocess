@@ -29,8 +29,14 @@ body {
     float: right;
 }
 .content {
-    display: grid;
-    grid-template-columns: auto auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.content strong, i {
+    flex: 50%;
+}
+.content img {
+    flex: 50%;
 }
 strong {
     padding-left: 1em;
