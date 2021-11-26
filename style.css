@@ -24,14 +24,15 @@ body {
 .showPass {
     width: min-content;
     border: 1px solid black;
-    position:absolute;
-    z-index: -1;
 }
 .info {
     float: right;
 }
 .content {
     display: inline-block;
+}
+.content img {
+    float: right;
 }
 strong {
     padding-left: 1em;
