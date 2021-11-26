@@ -10,44 +10,13 @@
         Assignment 4
         11/25/2021
         -->
-        <title>Process</title>
-        <script type = "text/javascript">
-            function prompt() {
-                var link = document.getElementById("link");
-               if (link.classList.contains('disable')) {                   
-                    var inp = document.getElementById("pass");
-                    inp.classList.remove('hidden');
-                    inp.classList.add('showPass');
-                }
-            }
-            function check(txt) {
-                var password = "password";
-                var link = document.getElementById("link");
-                if(txt.value.match(password)){
-                    link.classList.remove('disable');
-                    link.classList.add('enable');
-                }
-                var inp = document.getElementById("pass");
-                    inp.classList.remove('showPass');
-                    inp.classList.add('hidden');
-            }
-            function close() {
-                var inp = document.getElementById("pass");
-                    inp.classList.remove('showPass');
-                    inp.classList.add('hidden');
-            }
-
-        </script>
+        <title>Presentation</title>
+        
     </head>
     <body>
         <div class = "header">
-            <div id = "prompted" onmouseover="prompt()"><a href = "edit.php" id = "link" class = "disable">Edit</a></div>
-            <div id = "pass" class = "hidden">
-                <form name = "password" action = "#">
-                    <input type = "text" name = "txt" placeholder="enter password"/>
-                    <input type = "submit" name = "submit" value="Enter" onclick="check(document.password.txt)"/>
-                    <input type = "submit" name = "submit" value = "close" onclick="close()"/>
-                </form>
+            <div id = "buttons">
+            <button><a href = "presentation.php">home</a></button> | <button><a href = "index.php">User View</a></button> | <button><a href = "edit.php">Edit</a></button> | <button><a href = "proofOfConcept.php">Proof of Concept</a></button>
             </div>
         </div>
         <div class = "info">
