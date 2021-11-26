@@ -33,9 +33,6 @@ body {
 .content {
     display: inline-block;
 }
-.content img{
-    margin-left: 20em;
-}
 strong {
     padding-left: 1em;
 }
