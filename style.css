@@ -28,19 +28,6 @@ body {
 .info {
     float: right;
 }
-.content {
-    display: flex;
-    flex-wrap: wrap;
-}
-.interview {
-    flex: 50%;
-}
-.kebab {
-    flex: 50%;
-}
-img {
-    height: 20em;
-}
 strong {
     padding-left: 1em;
 }
