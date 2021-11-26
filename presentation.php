@@ -16,7 +16,7 @@
     <body>
         <div class = "header">
             <div id = "buttons">
-            <button><a href = "presentation.php">home</a></button> | <button><a href = "index.php">User View</a></button> | <button><a href = "edit.php">Edit</a></button> | <button><a href = "proofOfConcept.php">Proof of Concept</a></button>
+            <button><a href = "presentation.php">home</a></button> | <button><a href = "index.php">User View</a></button> | <button><a href = "menu.php">Edit</a></button> | <button><a href = "proofOfConcept.php">Proof of Concept</a></button>
             </div>
         </div>
         <div class = "info">
@@ -69,5 +69,8 @@ any computer used to access the admin section but the changes made will only app
 that loads.</br></br><mark><strong>My recommendation</strong> is that we use a database since you said you may not always be able to log in from the same device to make changes.  This way there is only one file being 
 used to control your menu and prices no matter who modifies or from where.</mark></p>
         </div>
+    <div class = "wireframe">
+        <img src = 'graphic/wireframe.PNG'>
+    </div>
     </body>
 </html>

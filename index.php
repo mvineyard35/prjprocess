@@ -18,27 +18,29 @@
                 var i;
                 var slides = document.getElementsByClassName("slides");
                 if(x > slides.length) {
-                    slideindex = 1;
+                    slideindex = 1
                 }
                 if (x < 1) {
-                    slideindex = slides.length;
+                    slideindex = slides.length
                 }
                 for(i=0; i < slides.length; i++) {
-                    slides[i].style.display='none';
+                    slides[i].style.display ='none';
                 }
-                slides[slideindex -1].style.display = "block";
+                slides[slideindex - 1].style.display = "block";
             }
 
         </script>
     </head>
-    <body>
+    <body onload = "showSlides(1)">
         <?php
+        //import database information
             include 'dbfCreate.php';
-
+            //query for all items
             $menuList = mysqli_query($db, "SELECT * FROM menu");
         ?>
     <div class = "header">
             <div id = "buttons">
+                <!--User view only has home link, which wouldn't normally go to presentation-->
             <button><a href = "presentation.php">home</a></button>
             </div>
         </div>
@@ -47,12 +49,14 @@
 
 
             <?php
+                //use loop to get table information
                 while($menuArray = $menuList->fetch_assoc()) {
                     echo "<p>" .$menuArray['item'] ."     " .$menuArray['price'] ."</p>";
                     echo "<p>" .$menuArray['detail'] ."</p></br></br>";
                 }
             ?>
         </div>
+        <!--Create slideshow for images of food, not needed but just did it for fun-->
         <div class = "slideshowContainer">
             <div class = "slides fade">
                 <div class = "number">1/4</div>
