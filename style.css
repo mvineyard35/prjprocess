@@ -1,0 +1,59 @@
+body {
+    background-color: lightslategray;
+}
+.header {
+    background-color: darkslategrey;
+    height: 5em;
+    width: 100vw;
+}
+.disable {
+    pointer-events: none;
+}
+.enable {
+    pointer-events: all;
+}
+.hidden {
+    display: none;
+}
+.show {
+    display: inline;
+}
+#prompted {
+    width: min-content;
+}
+.showPass {
+    width: min-content;
+    border: 1px solid black;
+    position:absolute;
+    z-index: -1;
+}
+.info {
+    float: right;
+}
+.content {
+    display: inline-block;
+}
+.content img{
+    margin-left: 20em;
+}
+strong {
+    padding-left: 1em;
+}
+i {
+    padding-left: 2em;
+}
+h1 {
+    padding-left: 5em;
+    padding-top: 5em;
+}
+.table {
+    padding-top: 3em;
+}
+th, td {
+    border: 1px solid black;
+}
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 30%;
+}
