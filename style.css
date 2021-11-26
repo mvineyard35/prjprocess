@@ -29,10 +29,8 @@ body {
     float: right;
 }
 .content {
-    display: inline-block;
-}
-.content img {
-    float: right;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 strong {
     padding-left: 1em;
