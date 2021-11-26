@@ -55,7 +55,6 @@
         </div>
         <div class = "content">
         <h1>Presentation</h1>
-        <div class = "interview">
         <strong> Q1: What types of changes will you need to make to your menu?</strong></br>
         <i>I will need to adjust items as well as prices</i></br>
         <strong>Would you prefer I just make the changes as needed or do you want a way to be able to handle it yourself?</strong></br>
@@ -66,10 +65,6 @@
         <i>I'd prefer password related access, especially because I may not be able to always use the same device to make changes.</i></br>
         <strong>How soon would you like these changes implemented?</strong></br>
         <i>The sooner the better, we have some new menu items coming for the holiday season, that will start on Sunday.</i></br>
-        </div>
-        <div class = "kebab">
-        <img src = "graphic/Kebab.png">
-        </div>
         </div>
         <div class = "table">
             <table>
