@@ -38,6 +38,9 @@ body {
 .kebab {
     flex: 50%;
 }
+img {
+    height: 20em;
+}
 strong {
     padding-left: 1em;
 }
